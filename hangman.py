@@ -1,7 +1,4 @@
 import random
-wordl = ["cat", "aardvark", "pig", "aligator", "walrus", "otter"]
-rand = random.randint(0,5)
-words = wordl[rand]
 def hangman():
     wordl = ["cat", "aardvark", "pig", "aligator", "walrus", "otter"]
     rand = random.randint(0,5)
